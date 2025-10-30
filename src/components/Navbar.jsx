@@ -1,10 +1,106 @@
+import { NavLink } from "react-router-dom";
+
 export default function Navbar(){
     return (
         <div className="h-20 bg-gradient-to-r from-black via-zinc-900 to-zinc-950 border-b-2 border-black/10 flex items-center">
-            {/* <h1 className='text-3xl font-helvetica- text-zinc-300'>
-        Solve.
-        </h1> */}
-        <img src="public/solve.png" alt="" className="h-20" />
+            <div className="w-6/12 ">
+            <NavLink to='/'>
+            <img src="public/solve.png" alt="" className="h-20" />
+            {/* <p className="font-helvetica-light text-white text-3xl">Solve.</p> */}
+            </NavLink>
+            </div>
+            <div className="text-white w-full flex">
+                <div className="w-4/12">
+                </div>
+                <ul className="flex justify-center w-6/12 space-x-5 text-xl uppercas font-helvetica-light">
+            <NavLink to='/products'>
+                Products
+            </NavLink>
+            <NavLink to='/services'>
+            Services
+            </NavLink>
+            <NavLink to='/pricing'>
+            Pricing
+            </NavLink>
+            <NavLink to='/policy'>
+            Policy
+            </NavLink>
+                </ul>
+            </div>
         </div>
     )
 }
+
+
+// import { NavLink } from "react-router-dom"
+
+// export default function Navbar({productName = 'PRODUCT_NAME_HERE',
+//     productNameClass,
+//     navLinkClass ='hover:scale-110 hover:font-bold hover:border-b-2 hover:border-white transition-all duration-300 text-xl text-white',
+//     outerWidthHeightColor = 'w-screen h-15',
+//     navColor = 'bg-black text-white',
+//     widthHeight=' w-[98%] h-full',
+//     navHome ,nav1,nav2,nav3,nav4,nav5,nav6,
+//     navt1,navt2,navt3,navt4,navt5,navt6}){
+//     return (
+//           <div className={`${outerWidthHeightColor}   flex justify-center`}>
+//             <div className={`${widthHeight} ${navColor} `}>
+//                 <ul className="flex justify-center items-center h-full">
+//                     <div className="w-1/2 flex justify-start ">
+//                     <li>
+//                         <NavLink to={navHome}>
+//                              <img src="public/solve.png" alt="" className="h-20" />
+//                         </NavLink>
+//                     </li>
+//                     </div>
+
+//                     <div className="w-1/2 flex justify-end mx-10 mr-20 space-x-10">
+                
+//                    {nav1 && 
+//                     <li className={`${navLinkClass}`}>
+//                         <NavLink to={nav1}>
+//                         <h1 className="text-xl text-white">{navt1}</h1>
+//                         </NavLink>
+//                     </li>
+//                    } 
+//                    {nav2 && 
+//                     <li className=''>
+//                         <NavLink to={nav2}>
+//                         <h1 className={`${navLinkClass}`}>{navt2}</h1>
+//                         </NavLink>
+//                     </li>
+//                    } 
+//                    {nav3 && 
+//                     <li className={`${navLinkClass}`}>
+//                         <NavLink to={nav3}>
+//                         <h1 className="text-xl">{navt3}</h1>
+//                         </NavLink>
+//                     </li>
+//                    } 
+//                    {nav4 && 
+//                     <li className={`${navLinkClass}`}>
+//                         <NavLink to={nav4}>
+//                         <h1 className="text-xl">{navt4}</h1>
+//                         </NavLink>
+//                     </li>
+//                    } 
+//                    {nav5 && 
+//                     <li className={`${navLinkClass}`}>
+//                         <NavLink to={nav5}>
+//                         <h1 className="text-xl">{navt5}</h1>
+//                         </NavLink>
+//                     </li>
+//                    } 
+//                    {nav6 && 
+//                     <li className={`${navLinkClass}`}>
+//                         <NavLink to={nav6}>
+//                         <h1 className="text-xl">{navt6}</h1>
+//                         </NavLink>
+//                     </li>
+//                    } 
+//                     </div>
+//                 </ul>
+//             </div>
+//         </div>
+//     )
+// }
