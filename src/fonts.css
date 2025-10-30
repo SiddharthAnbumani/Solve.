@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 
@@ -57,3 +58,16 @@
 .font-playwrite-medium { font-family: 'Playwrite DE SAS', cursive; font-weight: 500; } /* Medium */
 .font-playwrite-bold { font-family: 'Playwrite DE SAS', cursive; font-weight: 700; }  /* Bold */
 .font-playwrite-extrabold { font-family: 'Playwrite DE SAS', cursive; font-weight: 800; } /* Extra Bold */
+
+.font-noto-serif {  font-family: 'Noto Serif', serif; font-weight: 400; } /* Regular */
+.font-noto-serif-light { font-family: 'Noto Serif', serif; font-weight: 300;} /* Light */
+.font-noto-serif-medium { font-family: 'Noto Serif', serif; font-weight: 500; } /* Medium */
+.font-noto-serif-bold { 
+  font-family: 'Noto Serif', serif; 
+  font-weight: 700; 
+} /* Bold */
+
+.font-noto-serif-italic { 
+  font-family: 'Noto Serif', serif; 
+  font-style: italic; 
+} /* Italic */

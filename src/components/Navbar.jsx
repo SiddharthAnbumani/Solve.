@@ -2,30 +2,37 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar(){
     return (
-        <div className="h-20 bg-gradient-to-r from-black via-zinc-900 to-zinc-950 border-b-2 border-black/10 flex items-center">
-            <div className="w-6/12 ">
+        // <div className="h-20 bg-gradient-to-r from-black via-zinc-900 to-zinc-950 border-b-2 border-black/10 flex items-center">
+        <div className="h-20 bg-white border-b-2 border-black/10 flex items-center">
+            <div className="w-6/12 flex items-center">
             <NavLink to='/'>
-            <img src="public/solve.png" alt="" className="h-20" />
+            <img src="public/solve-white1.png" alt="" className="h-30 mx-10" />
             {/* <p className="font-helvetica-light text-white text-3xl">Solve.</p> */}
             </NavLink>
             </div>
             <div className="text-white w-full flex">
-                <div className="w-4/12">
-                </div>
-                <ul className="flex justify-center w-6/12 space-x-5 text-xl uppercas font-helvetica-light">
-            <NavLink to='/products'>
-                Products
-            </NavLink>
-            <NavLink to='/services'>
-            Services
-            </NavLink>
-            <NavLink to='/pricing'>
-            Pricing
-            </NavLink>
-            <NavLink to='/policy'>
-            Policy
-            </NavLink>
-                </ul>
+            <div className="w-2/12">
+            </div>
+            <ul className="flex justify-center w-8/12 space-x-5 text-lg uppercase font-helvetica text-black">
+                <NavLink to='/products'>
+                    Products
+                </NavLink>
+                <NavLink to='/services'>
+                    Services
+                </NavLink>
+                <NavLink to='/pricing'>
+                    Pricing
+                </NavLink>
+                <NavLink to='/policy'>
+                    Policy
+                </NavLink>
+                <NavLink to='/policy'>
+                    About Us
+                </NavLink>
+                <NavLink to='/policy'>
+                    Contact Us
+                </NavLink>
+            </ul>
             </div>
         </div>
     )
