@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+/* Helvetica */
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./fonts/Helvetica-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./fonts/Helvetica-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./fonts/Helvetica-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./fonts/Helvetica-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* ----------------- Helvetica ----------------- */
+.font-helvetica { font-family: 'Helvetica', sans-serif; font-weight: 400; }  /* Regular */
+.font-helvetica-light { font-family: 'Helvetica', sans-serif; font-weight: 300; } /* Light */
+.font-helvetica-medium { font-family: 'Helvetica', sans-serif; font-weight: 500; } /* Medium */
+.font-helvetica-bold { font-family: 'Helvetica', sans-serif; font-weight: 700; } /* Bold */
+
+/* ----------------- Roboto ----------------- */
+.font-roboto { font-family: 'Roboto', sans-serif; font-weight: 400; }         /* Regular */
+.font-roboto-medium { font-family: 'Roboto', sans-serif; font-weight: 500; }  /* Medium */
+.font-roboto-bold { font-family: 'Roboto', sans-serif; font-weight: 700; }    /* Bold */
+.font-roboto-extrabold { font-family: 'Roboto', sans-serif; font-weight: 800; } /* Extra Bold */
+
+/* ----------------- Inter ----------------- */
+.font-inter { font-family: 'Inter', sans-serif; font-weight: 400; }           /* Regular */
+.font-inter-regular { font-family: 'Inter', sans-serif; font-weight: 400; }   /* Regular */
+.font-inter-medium { font-family: 'Inter', sans-serif; font-weight: 500; }    /* Medium */
+.font-inter-bold { font-family: 'Inter', sans-serif; font-weight: 700; }      /* Bold */
+.font-inter-extrabold { font-family: 'Inter', sans-serif; font-weight: 800; } /* Extra Bold */
+
+/* ----------------- Playwrite DE SAS ----------------- */
+.font-playwrite { font-family: 'Playwrite DE SAS', cursive; font-weight: 400; }       /* Regular */
+.font-playwrite-regular { font-family: 'Playwrite DE SAS', cursive; font-weight: 400; }
+.font-playwrite-medium { font-family: 'Playwrite DE SAS', cursive; font-weight: 500; } /* Medium */
+.font-playwrite-bold { font-family: 'Playwrite DE SAS', cursive; font-weight: 700; }  /* Bold */
+.font-playwrite-extrabold { font-family: 'Playwrite DE SAS', cursive; font-weight: 800; } /* Extra Bold */
