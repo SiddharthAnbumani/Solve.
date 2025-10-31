@@ -193,7 +193,6 @@ export default function Home(){
                         </NavLink>
                         </div>
                     </div>
-                    
             </div>
         </div>
     )
