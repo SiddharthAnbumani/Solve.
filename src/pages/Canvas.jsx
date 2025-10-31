@@ -19,7 +19,7 @@ export default function Canvas(){
                 </div>
 
                 {/* Bottom section */}
-                <div className="bg-black text-zinc-400 p-8 h-7/12">
+                <div className="bg-white text-black p-8 h-7/12">
                     <h4 className="text-sm mb-4 uppercase tracking-wide text-white font-helvetica-medium">
                     Features
                     </h4>
