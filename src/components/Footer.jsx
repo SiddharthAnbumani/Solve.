@@ -1,6 +1,6 @@
 export default function Footer(){
     return (
-        <div className="w-screen h-100 bg-white border-t-black/10">
+        <div className="w-screen h-100 bg-white border-t-black/10 border-t-1">
             <div className="w-1/3 h-40"></div>
             <div className="w-1/3 h-40"></div>
             <div className="w-1/3 h-40"></div>

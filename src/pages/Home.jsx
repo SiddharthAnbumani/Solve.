@@ -85,15 +85,15 @@ export default function Home(){
                     </div>
                     <div className="w-4/12 h-80 rounded-2xl hover:scale-102 transition-all duration-400 border-2 border-black/10 bg-gradient-to-bl from-black via-zinc-950 to-black text-white flex flex-col items-center justify-between pb-10 px-5 ">
                         <h1 className="text-2xl  uppercase pt-10 px-5 font-helvetica-light">
-                            Sports Facility Management System
+                            Operations System
                         </h1>
                         <div className=" flex flex-col items-center">
                             <p className="text-xl px-10 leading-6 hyphens-auto">
-                                All your academy needs. One dashboard.
+                                All your business needs. One dashboard.
                             </p>
                             <p className="text-lg px-6 font-helvetica-light hyphens-auto leading-6 my-2">
-                            Simplify operations for sports academies — manage registrations, attendance, finances, 
-      and staff from one unified, easy-to-use dashboard built for efficiency.
+                            Simplify operations for businesses and organizations — manage registrations, attendance, finances, 
+                            and staff from one unified, easy-to-use dashboard built for efficiency.
                             </p>
                         </div>
                
@@ -102,7 +102,7 @@ export default function Home(){
                 <div className="flex justify-center space-x-10 w-screen">
                     <div className="w-4/12 h-80 rounded-2xl hover:scale-102 transition-all duration-400 border-2 border-black/10 bg-gradient-to-bl from-black via-zinc-950 to-black text-white flex flex-col items-center justify-between pb-10 px-5 ">
                         <h1 className="text-2xl  uppercase pt-10 px-4 font-helvetica-light">
-                            WhatsApp AI Chatbot for Businesses
+                            WhatsApp AI System
                         </h1>
                         <div className=" flex flex-col items-center">
                             <p className="text-xl px-10 leading-6 hyphens-auto">
