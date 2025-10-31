@@ -1,31 +1,70 @@
 import Spline from "@splinetool/react-spline";
+import { Link } from "react-scroll";
 
 export default function Product(){
     return (
         <div className="w-screen">
             {/* Section Header */}
-            <div className="flex justify-center bg-white pt-15 w-full">
-                <div className="w-8/12 flex flex-col items-center">
+            <div className="flex justify-center bg-white w-full">
+                <div className="w-6/12 flex flex-col items-center pt-15">
                 <h1 className="text-4xl font-helvetica uppercase tracking-wide text-center mb-6">
                     Smart Systems. Smarter Workflows.
                 </h1>
-                <p className="text-black text-xl text-center w-[80%] mb-16 font-helvetica-light text-justify">
+                <p className="text-black text-xl text-center w-[80%] mb-5 font-helvetica-light text-justify">
                     Explore the Solve Product Suite, a collection of intelligent, customizable systems 
                     designed to automate communication, streamline operations, and enhance customer experience.
                 </p>
-                </div>
-               
-                {/* <div className="w-150 h-150">
-                    <Spline scene="https://prod.spline.design/VqZ0wjSH22tbl2M2/scene.splinecode" />
+                {/* <div className="flex flex-col w-full">
+                    <h1 className=" ml-10 text-2xl font-helvetica uppercase tracking-wide mb-2">
+                        Solve. Products Suite
+                    </h1>
+                    <div className="ml-15 flex flex-col">
+                    <Link 
+                        activeClass="active"
+                        to="operations-system"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="cursor-pointer"
+                    >
+                        Solve. Operation Systems
+                    </Link>
+                    <Link 
+                        activeClass="active"
+                        to="whatsapp-system"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="cursor-pointer"
+                    >
+                        Solve. Whatsapp Systems
+                    </Link>
+                    <Link 
+                        activeClass="active"
+                        to="adaptive-system"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="cursor-pointer"
+                    >
+                        Solve. Adaptive Systems
+                    </Link>
+                    </div>
+
                 </div> */}
-                <div className="w-4/12 h-150">
-                    <Spline scene="/spline/product_ord.splinecode" />
+                </div>
+
+                <div className="w-6/12 h-100">
+                    <Spline scene="/spline/reduce_cube.splinecode" />
                 </div>
 
             </div>
 
 {/* Operations Business */}
-<div className="pt-15 pb-30 bg-black text-white">
+<div id="operations-system" className="pt-15 pb-30 bg-black text-white">
   <div className="flex flex-col justify-center w-full my-10 items-center">
     <h1 className="text-4xl font-helvetica uppercase text-center mb-6">
       Solve. Operations System
@@ -119,7 +158,7 @@ export default function Product(){
 
 
 {/* Whatsapp Systems Section */}
-            <div className="pb-30">
+            <div id="whatsapp-system" className="pb-30">
                 <div className="flex flex-col justify-center w-full my-10 flex flex-col items-center">
                      <h1 className="text-4xl font-helvetica uppercase text-center mb-6 ">
                         Solve. Whatsapp Systems
@@ -191,7 +230,7 @@ Solve WhatsApp Systems helps businesses connect faster, respond smarter, and sta
 
 
 {/* Adaptive Systems Section */}
-<div className="bg-black text-white py-24 px-10 flex flex-col items-center">
+<div id="adaptive-system" className="bg-black text-white py-24 px-10 flex flex-col items-center">
       {/* Section Header */}
       <h1 className="text-4xl font-helvetica-light uppercase tracking-wide text-center mb-4">
         Solve Adaptive Systems

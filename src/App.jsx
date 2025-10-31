@@ -10,6 +10,7 @@ import Services from './pages/Services'
 import Policy from './pages/Policy'
 import Pricing from './pages/Pricing'
 import Footer from './components/Footer'
+import Canvas from './pages/Canvas'
 function App() {
 
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path='/services' element={<Services />}/>
       <Route path='/pricing' element={<Pricing />}/>
       <Route path='/policy' element={<Policy />}/>
+      <Route path='/canvas' element={<Canvas />}/>
     </Routes>
       <Footer/>
     </BrowserRouter>
