@@ -1,6 +1,7 @@
 import Spline from "@splinetool/react-spline";
 import PageBannerPlusText from "../components/BannerPlusText";
 import VideoPlusText from "../components/VideoPlusText";
+import { NavLink } from "react-router-dom";
 
 export default function Home(){
     return (
@@ -21,12 +22,12 @@ export default function Home(){
                         Empower your brand with intelligent automation, Custom management systems, and AI-driven chat solutions built to scale effortlessly.
                     </p> */}
                     <div className="flex space-x-2 mt-3">
-                        <button className="bg-black text-white rounded-lg text-lg py-2 px-5 hover:scale-105 transition-all duration-300">
+                        <NavLink to='' className="bg-black text-white rounded-lg text-lg py-2 px-5 hover:scale-105 transition-all duration-300">
                             Get a Free Consultation
-                        </button>
-                        <button className="bg-white text-black rounded-lg text-lg py-2 px-5 hover:scale-105 transition-all duration-300 border-2 border-black">
+                        </NavLink>
+                        <NavLink to='/products' className="bg-white text-black rounded-lg text-lg py-2 px-5 hover:scale-105 transition-all duration-300 border-2 border-black">
                             Discover How It Works
-                        </button>
+                        </NavLink>
                     </div>
                 </div>
             </div>
@@ -173,8 +174,8 @@ export default function Home(){
             </div>
 
             <div className="h-100 bg-white border-b-2">
-                   <h1 className="text-5xl uppercase pt-10 px-10 font-helvetica-light text-black text-center">
-                    Let’s Build Together.
+                   <h1 className="text-5xl uppercase pt-15 px-10 font-helvetica-light text-black text-center">
+                    Let’s Build Your System Together.
                     </h1>
                     <div className="w-full flex items-center justify-center mt-20">
                         <div className="w-8/12">
@@ -187,9 +188,9 @@ export default function Home(){
                         <button className="bg-black text-white rounded-lg text-lg py-4 px-5 hover:scale-105 transition-all duration-300 w-80">
                             Get a Free Consultation
                         </button>
-                        <button className="bg-white text-black rounded-lg text-lg py-4 px-5 hover:scale-105 transition-all duration-300 w-80 border-2 border-black">
+                        <NavLink to='/products' className="bg-white text-center text-black rounded-lg text-lg py-4 px-5 hover:scale-105 transition-all duration-300 w-80 border-2 border-black">
                             Discover How It Works
-                        </button>
+                        </NavLink>
                         </div>
                     </div>
                     
