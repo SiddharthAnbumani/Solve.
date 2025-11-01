@@ -18,7 +18,9 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <Navbar outerWidthHeightColor='h-10 bg-black'/>
+    <div className="mb-25">
+      <Navbar classname=''/>
+    </div>
     <Routes>
       <Route path='/' element={<Home />}/>
       <Route path='/products' element={<Product />}/>
