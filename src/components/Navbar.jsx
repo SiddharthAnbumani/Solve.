@@ -26,10 +26,10 @@ export default function Navbar(){
                 <NavLink to='/policy'>
                     Policy
                 </NavLink>
-                <NavLink to='/policy'>
+                <NavLink to='/about'>
                     About Us
                 </NavLink>
-                <NavLink to='/policy'>
+                <NavLink to='/contact'>
                     Contact Us
                 </NavLink>
             </ul>
