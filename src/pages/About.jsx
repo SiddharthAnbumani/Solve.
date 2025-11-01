@@ -8,7 +8,7 @@ export default function About(){
             <h1 className="text-8xl font-helvetica-light uppercase">About</h1>
           </div>
           <div className="w-6/12 h-full">
-            <Spline scene="/spline/knots_no_zoom.splinecode" />
+            <Spline scene="/spline/spiral.splinecode" />
           </div>
         </div>
         </div>

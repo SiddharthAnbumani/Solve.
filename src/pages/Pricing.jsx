@@ -11,7 +11,7 @@ export default function Pricing() {
             <h1 className="text-8xl font-helvetica-light uppercase">Pricing</h1>
           </div>
           <div className="w-6/12 h-full">
-            <Spline scene="/spline/knots_no_zoom.splinecode" />
+            <Spline scene="/spline/payments_pricing.splinecode" />
           </div>
         </div>
 
