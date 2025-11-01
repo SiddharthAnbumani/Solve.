@@ -64,5 +64,6 @@ export default function Footer(){
             &copy; {new Date().getFullYear()} Solve AI Systems, All Rights Reserved
             </div>
         </div>
+        
     )
 }
