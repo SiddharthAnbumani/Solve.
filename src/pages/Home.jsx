@@ -88,7 +88,7 @@ export default function Home() {
               <h1 className="text-2xl uppercase font-inter-bold text-center mb-4">
                 Operations System
               </h1>
-              <p className="text-lg text-center leading-6">
+              <p className="text-lg text-center leading-6 font-helvetica-light">
                 Simplify operations — manage registrations, finances, and staff from one unified
                 dashboard built for efficiency.
               </p>
@@ -101,7 +101,7 @@ export default function Home() {
               <h1 className="text-2xl uppercase font-inter-bold text-center mb-4">
                 WhatsApp AI System
               </h1>
-              <p className="text-lg text-center leading-6">
+              <p className="text-lg text-center leading-6 font-helvetica-light">
                 Automate conversations and capture leads 24/7 with intelligent AI-powered WhatsApp
                 bots that think and respond like humans.
               </p>

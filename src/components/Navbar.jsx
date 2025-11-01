@@ -84,7 +84,7 @@ export default function Navbar() {
 
       {/* Fullscreen Mobile Menu */}
       <div
-        className={`fixed inset-0 bg-white flex flex-col items-center justify-center uppercase text-3xl font-helvetica-medium text-black space-y-8 transition-all duration-300 z-[60] ${
+        className={`fixed inset-0 bg-white flex flex-col items-center justify-start uppercase text-3xl font-helvetica-light text-black space-y-8 transition-all duration-300 z-[60] ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -96,7 +96,9 @@ export default function Navbar() {
           <X className="w-7 h-7 text-black" />
         </button>
 
-        <NavLink to="/" onClick={closeMenu}>
+        <img src="public/solve-white1.png" alt="" className="h-60"/>
+
+        <NavLink to="/" onClick={closeMenu} className='font-helvetica-light'>
           Home
         </NavLink>
         <NavLink to="/products" onClick={closeMenu}>

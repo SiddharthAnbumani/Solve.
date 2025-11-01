@@ -269,7 +269,7 @@ export default function Services() {
 
         {/* Right Spline */}
         <div className="w-full lg:w-6/12 h-80 sm:h-[400px] md:h-100 mt-6 md:mt-0 flex justify-center">
-          <Spline scene="/spline/reduce_orb.splinecode" />
+          <Spline scene="/spline/black_orb.splinecode" />
         </div>
       </div>
 
