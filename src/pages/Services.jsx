@@ -22,7 +22,7 @@ export default function Services(){
             {/* Web Studio */}
             <div className="pt-15 pb-30 bg-black text-white">
             <div className="flex flex-col justify-center w-full my-10 items-center">
-                <h1 className="text-4xl font-helvetica uppercase text-center mb-6">
+                <h1 className="text-4xl font-inter-bold uppercase text-center mb-6">
                 Web Studio
                 </h1>
                 <p className="text-zinc-300 text-xl text-center mb-16 font-helvetica-light px-10 w-[80%]">
@@ -126,7 +126,7 @@ export default function Services(){
       <div className="bg-white text-black py-24 px-6 flex flex-col items-center">
       {/* Heading */}
       <div className="text-center mb-16">
-        <h1 className="text-4xl font-helvetica uppercase tracking-wide mb-4">
+        <h1 className="text-4xl font-inter-bold uppercase tracking-wide mb-4">
           Solve. Digital Marketing Systems
         </h1>
         <p className="text-zinc-700 max-w-3xl mx-auto text-lg font-helvetica-light">
@@ -225,7 +225,7 @@ export default function Services(){
     </div>
     <div className="">
      <div className="bg-black text-white h-100 flex flex-col justify-center items-center text-center px-6">
-  <h3 className="text-3xl md:text-4xl font-helvetica mb-6">
+  <h3 className="text-3xl md:text-4xl font-inter-bold mb-6">
     Let’s Automate Your Marketing.
   </h3>
   

@@ -66,7 +66,7 @@ export default function Product(){
 {/* Operations Business */}
 <div id="operations-system" className="pt-15 pb-30 bg-black text-white">
   <div className="flex flex-col justify-center w-full my-10 items-center">
-    <h1 className="text-4xl font-helvetica uppercase text-center mb-6">
+    <h1 className="text-4xl font-inter-bold uppercase text-center mb-6">
       Solve. Operations System
     </h1>
     <p className="text-zinc-300 text-xl text-center mb-16 font-helvetica-light px-10 w-[80%]">
@@ -160,7 +160,7 @@ export default function Product(){
 {/* Whatsapp Systems Section */}
             <div id="whatsapp-system" className="pb-30">
                 <div className="flex flex-col justify-center w-full my-10 flex flex-col items-center">
-                     <h1 className="text-4xl font-helvetica uppercase text-center mb-6 ">
+                     <h1 className="text-4xl font-inter-bold uppercase text-center mb-6 ">
                         Solve. Whatsapp Systems
                     </h1>
                 <p className="text-black text-xl text-center mb-16 font-helvetica-light px-10 w-[80%] ">
@@ -173,7 +173,7 @@ Solve WhatsApp Systems helps businesses connect faster, respond smarter, and sta
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full max-w-7xl">
                         {/* Solve Chat AI */}
                         <div className="border border-zinc-200 rounded-2xl bg-gradient-to-bl from-zinc-50 via-white to-zinc-100 p-8 hover:-translate-y-1 hover:shadow-lg hover:shadow-zinc-300/50 transition-all duration-300">
-                            <h2 className="text-2xl font-helvetica mb-4">Solve Chat AI</h2>
+                            <h2 className="text-2xl font-inter-bold mb-4">Solve Chat AI</h2>
                             <p className="text-zinc-700 text-base leading-relaxed">
                                 A ChatGPT for your business — intelligent, conversational, and always available.
                                 Engage customers 24/7 through AI-powered WhatsApp conversations.
@@ -182,7 +182,7 @@ Solve WhatsApp Systems helps businesses connect faster, respond smarter, and sta
 
                         {/* Solve Enquiry System */}
                         <div className="border border-zinc-200 rounded-2xl bg-gradient-to-bl from-zinc-50 via-white to-zinc-100 p-8 hover:-translate-y-1 hover:shadow-lg hover:shadow-zinc-300/50 transition-all duration-300">
-                            <h2 className="text-2xl font-helvetica mb-4">Solve Enquiry System</h2>
+                            <h2 className="text-2xl font-inter-bold mb-4">Solve Enquiry System</h2>
                             <p className="text-zinc-700 text-base leading-relaxed">
                                 Answer questions instantly, automate responses, and manage customer enquiries 
                                 seamlessly through WhatsApp.
@@ -191,7 +191,7 @@ Solve WhatsApp Systems helps businesses connect faster, respond smarter, and sta
 
                         {/* Solve Booking AI */}
                         <div className="border border-zinc-200 rounded-2xl bg-gradient-to-bl from-zinc-50 via-white to-zinc-100 p-8 hover:-translate-y-1 hover:shadow-lg hover:shadow-zinc-300/50 transition-all duration-300">
-                            <h2 className="text-2xl font-helvetica mb-4">Solve Booking AI</h2>
+                            <h2 className="text-2xl font-inter-bold mb-4">Solve Booking AI</h2>
                             <p className="text-zinc-700 text-base leading-relaxed">
                                 Conversations that convert to bookings — AI-assisted scheduling and confirmations 
                                 right inside WhatsApp.
@@ -200,7 +200,7 @@ Solve WhatsApp Systems helps businesses connect faster, respond smarter, and sta
 
                         {/* Solve Booking System */}
                         <div className="border border-zinc-200 rounded-2xl bg-gradient-to-bl from-zinc-50 via-white to-zinc-100 p-8 hover:-translate-y-1 hover:shadow-lg hover:shadow-zinc-300/50 transition-all duration-300">
-                            <h2 className="text-2xl font-helvetica mb-4">Solve Booking System</h2>
+                            <h2 className="text-2xl font-inter-bold mb-4">Solve Booking System</h2>
                             <p className="text-zinc-700 text-base leading-relaxed">
                                 Streamline your scheduling process with a structured WhatsApp booking system 
                                 built for simplicity and reliability.
@@ -209,7 +209,7 @@ Solve WhatsApp Systems helps businesses connect faster, respond smarter, and sta
 
                         {/* Solve Registration System */}
                         <div className="border border-zinc-200 rounded-2xl bg-gradient-to-bl from-zinc-50 via-white to-zinc-100 p-8 hover:-translate-y-1 hover:shadow-lg hover:shadow-zinc-300/50 transition-all duration-300">
-                            <h2 className="text-2xl font-helvetica mb-4">Solve Registration System</h2>
+                            <h2 className="text-2xl font-inter-bold mb-4">Solve Registration System</h2>
                             <p className="text-zinc-700 text-base leading-relaxed">
                                 Smart WhatsApp registration system for gyms, academies, and organizations —
                                 manage sign-ups, attendance, and onboarding with ease.
@@ -218,7 +218,7 @@ Solve WhatsApp Systems helps businesses connect faster, respond smarter, and sta
 
                         {/* Solve Feedback System */}
                         <div className="border border-zinc-200 rounded-2xl bg-gradient-to-bl from-zinc-50 via-white to-zinc-100 p-8 hover:-translate-y-1 hover:shadow-lg hover:shadow-zinc-300/50 transition-all duration-300">
-                            <h2 className="text-2xl font-helvetica mb-4 ">Solve Feedback System</h2>
+                            <h2 className="text-2xl font-inter-bold mb-4 ">Solve Feedback System</h2>
                             <p className="text-zinc-700 text-base leading-relaxed">
                                 Collect and analyze feedback directly through WhatsApp — turn customer insights 
                                 into smarter business decisions.
@@ -232,7 +232,7 @@ Solve WhatsApp Systems helps businesses connect faster, respond smarter, and sta
 {/* Adaptive Systems Section */}
 <div id="adaptive-system" className="bg-black text-white py-24 px-10 flex flex-col items-center">
       {/* Section Header */}
-      <h1 className="text-4xl font-helvetica-light uppercase tracking-wide text-center mb-4">
+      <h1 className="text-4xl font-inter-bold uppercase tracking-wide text-center mb-4">
         Solve Adaptive Systems
       </h1>
       <p className="text-white text-lg text-center max-w-3xl mb-6 font-helvetica-light">
@@ -248,7 +248,7 @@ Solve WhatsApp Systems helps businesses connect faster, respond smarter, and sta
         <div className="flex flex-col items-start p-8 rounded-2xl border border-zinc-200 bg-white hover:shadow-lg transition-all duration-300">
           <span className="text-5xl font-bold text-zinc-900 mb-3">01</span>
           <h2 className="text-xl font-helvetica-light mb-2">Understand</h2>
-          <p className="text-zinc-600 leading-relaxed">
+          <p className="text-black leading-relaxed">
             We start by understanding your workflow, pain points, and what success looks like for you.
           </p>
         </div>
@@ -257,7 +257,7 @@ Solve WhatsApp Systems helps businesses connect faster, respond smarter, and sta
         <div className="flex flex-col items-start p-8 rounded-2xl border border-zinc-200 bg-white hover:shadow-lg transition-all duration-300">
           <span className="text-5xl font-bold text-zinc-900 mb-3">02</span>
           <h2 className="text-xl font-helvetica-light mb-2">Design</h2>
-          <p className="text-zinc-600 leading-relaxed">
+          <p className="text-black leading-relaxed">
             Our team maps out a solution — simple, scalable, and tailored to your goals.
           </p>
         </div>
@@ -266,7 +266,7 @@ Solve WhatsApp Systems helps businesses connect faster, respond smarter, and sta
         <div className="flex flex-col items-start p-8 rounded-2xl border border-zinc-200 bg-white hover:shadow-lg transition-all duration-300">
           <span className="text-5xl font-bold text-zinc-900 mb-3">03</span>
           <h2 className="text-xl font-helvetica-light mb-2">Develop</h2>
-          <p className="text-zinc-600 leading-relaxed">
+          <p className="text-black leading-relaxed">
             We build your custom system with clean architecture, automation, and intuitive UX.
           </p>
         </div>
@@ -275,7 +275,7 @@ Solve WhatsApp Systems helps businesses connect faster, respond smarter, and sta
         <div className="flex flex-col items-start p-8 rounded-2xl border border-zinc-200 bg-white hover:shadow-lg transition-all duration-300">
           <span className="text-5xl font-bold text-zinc-900 mb-3">04</span>
           <h2 className="text-xl font-helvetica-light mb-2">Deliver</h2>
-          <p className="text-zinc-600 leading-relaxed">
+          <p className="text-black leading-relaxed">
             Your adaptive system goes live — ready to streamline your operations and grow with your business.
           </p>
         </div>
@@ -284,7 +284,7 @@ Solve WhatsApp Systems helps businesses connect faster, respond smarter, and sta
       {/* CTA / Quote Form */}
       <div className="w-full max-w-3xl bg-white border border-zinc-200 rounded-2xl p-10 shadow-sm flex flex-col items-center">
         <h3 className="text-2xl font-helvetica-light text-center mb-4">Ready to build your system?</h3>
-        <p className="text-zinc-600 text-center mb-8 max-w-xl">
+        <p className="text-black text-center mb-8 max-w-xl">
           Let’s discuss your project goals and craft a solution tailored for your business.
         </p>
 

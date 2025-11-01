@@ -13,7 +13,7 @@ export default function Navbar(){
             <div className="text-white w-full flex">
             <div className="w-2/12">
             </div>
-            <ul className="flex justify-center w-8/12 space-x-5 text-lg uppercase font-helvetica text-black">
+            <ul className="flex justify-center w-8/12 space-x-5 text-lg uppercase font-helvetica-medium text-black">
                 <NavLink to='/products'>
                     Products
                 </NavLink>
@@ -23,9 +23,9 @@ export default function Navbar(){
                 <NavLink to='/pricing'>
                     Pricing
                 </NavLink>
-                <NavLink to='/policy'>
+                {/* <NavLink to='/policy'>
                     Policy
-                </NavLink>
+                </NavLink> */}
                 <NavLink to='/about'>
                     About Us
                 </NavLink>

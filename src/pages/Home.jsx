@@ -15,7 +15,7 @@ export default function Home(){
                     <p>
                         bring Systems to your Business .
                     </p> 
-                    <p className="text-3xl text-center my-3 font-helvetica text-zinc-950"> 
+                    <p className="text-3xl text-center my-3 font-inter-medium text-zinc-950"> 
                         Systemize. Scale. Succeed.
                     </p>
                     {/* <p className="text-lg w-[80%] my-3 font-helvetica text-zinc-950 normal-case leading-6"> 
@@ -70,7 +70,7 @@ export default function Home(){
                 <div className="space-y-10 mt-10">
                 <div className="flex justify-center space-x-10 w-screen">
                     <div className="w-4/12 pt-5 pb-10  h-80 rounded-2xl hover:scale-102 transition-all duration-400 border-2 border-black flex flex-col items-center justify-between">
-                        <h1 className="text-2xl  uppercase pt-10 px-5 font-helvetica">
+                        <h1 className="text-2xl  uppercase pt-10 px-5 font-inter-bold">
                             Full Web Solutions
                         </h1>
                         <div className="flex flex-col items-center">
@@ -84,7 +84,7 @@ export default function Home(){
                         </div>
                     </div>
                     <div className="w-4/12 h-80 rounded-2xl hover:scale-102 transition-all duration-400 border-2 border-black/10 bg-gradient-to-bl from-black via-zinc-950 to-black text-white flex flex-col items-center justify-between pb-10 px-5 ">
-                        <h1 className="text-2xl  uppercase pt-10 px-5 font-helvetica-light">
+                        <h1 className="text-2xl  uppercase pt-10 px-5 font-inter-bold">
                             Operations System
                         </h1>
                         <div className=" flex flex-col items-center">
@@ -101,7 +101,7 @@ export default function Home(){
                 </div>
                 <div className="flex justify-center space-x-10 w-screen">
                     <div className="w-4/12 h-80 rounded-2xl hover:scale-102 transition-all duration-400 border-2 border-black/10 bg-gradient-to-bl from-black via-zinc-950 to-black text-white flex flex-col items-center justify-between pb-10 px-5 ">
-                        <h1 className="text-2xl  uppercase pt-10 px-4 font-helvetica-light">
+                        <h1 className="text-2xl  uppercase pt-10 px-4 font-inter-bold">
                             WhatsApp AI System
                         </h1>
                         <div className=" flex flex-col items-center">
@@ -114,7 +114,7 @@ export default function Home(){
                         </div>
                     </div>
                     <div className="w-4/12 h-80 rounded-2xl hover:scale-102 transition-all duration-400 border-2 border-black flex flex-col items-center justify-between pb-10 px-5  ">
-                        <h1 className="text-2xl  uppercase pt-10 px-5 font-helvetica">
+                        <h1 className="text-2xl  uppercase pt-10 px-5 font-inter-bold">
                             Adaptive Systems
                         </h1>
                         <div className=" flex flex-col items-center">

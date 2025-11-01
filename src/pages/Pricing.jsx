@@ -8,7 +8,7 @@ export default function Pricing() {
       <div className="min-h-screen w-screen bg-white">
         <div className="flex border-b border-black/10">
           <div className="w-8/12 flex justify-center items-center">
-            <h1 className="text-8xl font-helvetica-light uppercase">Pricing</h1>
+            <h1 className="text-5xl font-helvetica-medium uppercase">Pricing</h1>
           </div>
           <div className="w-6/12 h-full">
             <Spline scene="/spline/payments_pricing.splinecode" />
@@ -17,7 +17,7 @@ export default function Pricing() {
 
         {/* Amber Section */}
         <div className="flex flex-col items-center bg-white py-16 border-b border-black/10">
-          <h1 className="text-5xl font-helvetica-medium uppercase px-10 font-helvetica-light mt-10 text-center">
+          <h1 className="text-4xl font-inter-bold uppercase px-10 font-helvetica-light mt-10 text-center">
             Operations Systems Pricing
           </h1>
 
